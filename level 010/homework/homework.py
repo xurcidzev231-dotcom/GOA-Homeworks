@@ -1,88 +1,88 @@
 # homework 1
 
-num1 = input("შეიყვანეთ პირველი მნიშვნელობა: ")
-num2 = input("შეიყვანეთ მეორე მნიშვნელობა: ")
+num1 = input("გამოიტანე რაიმე რიცხვი:" )
+num2 = input("გამოიტანე რაიმე სიტყვა:" )
 
-result = num1 + num2
+sum = num1 + num2
 
-print(type(result))
-
-
-
-# homework 2
+print(sum)
+print(type(sum))
 
 
-text1 = input("შეიყვანეთ პირველი ტექსტი: ")
-text2 = input("შეიყვანეთ მეორე ტექსტი: ")
 
-result = text1 + text2
+#homework 2
 
-print(result)
-print(type(result))
+number1 = input("გამოიტანე სახელი:" )
+number2 = input ("გამოიტანე გავრი")
+
+sum1 = number1 + number2
+
+print(sum1)
+print(type(sum1))
 
 
 
 # homework 3
 
-num3 = float(input("შეიყვანეთ პირველი რიცხვი: "))
-num4 = float(input("შეიყვანეთ მეორე რიცხვი: "))
+num3 = input("გამოიტანე მანქანის მოდელი:" )
+num4 = input("გამოიტანე მისამართი")
 
-result = num3 + num4
+sum3 = num3 + num4
 
-print(result)
-print(type(result))
-
-
-
-# homework 4 
-
-call1 = float(input("შეიყვანეთ პირველი რიცხვი: "))
-call2 = float(input("შეიყვანეთ მეორე რიცხვი: "))
-
-result = call1 - call2
-
-print(result)
-print(type(result))
+print(sum3)
+print(type(sum3))
 
 
 
-# homework 5
+# homework 4
 
-number1 = float(input("შეიყვანეთ პირველი რიცხვი: "))
-number2 = float(input("შეიყვანეთ მეორე რიცხვი: "))
+num5 = input("ვინ ხარ:" )
+num6 = input("სად ცხოვრობ")
 
-result = number1 / number2
+sum4 = num5 + num6
 
-print(result)
-print(type(result))
+print(sum4)
+print(type(sum4))
+
+
+
+# homework 5 
+
+num7 = input("რა გინდა:" )
+num8 = input("რათ მინდოდა")
+
+sum5 = num7 + num8
+
+print(sum5)
+print(type(sum5))
 
 
 
 # homework 6
 
-age = input("შეიყვანეთ თქვენი ასაკი: ")
+number3 = input("რამდენი წლის ხარ")
 
-print(type(age))
-
+print(type(number3))
 
 
 
 # homework 7
 
-number3 = float(input("შეიყვანეთ პირველი რიცხვი: "))
-number4 = float(input("შეიყვანეთ მეორე რიცხვი: "))
+number4 = input("შევიყვანოთ რიცხვი:" ) 
+number5 = input("შემოიყვანეთ მეორე რიცხვიც:" )
 
-final_result = number3 + number4 + 10
+sum6 = number4 + number5 
 
-print(type(final_result))
+print(type(sum6))
 
 
 
 # homework 8
 
-number = float(input("შეიყვანეთ რიცხვი: "))
+number6 = input("გამოიტანე რიცხვი:" )
+number7 = input("გამოიტანე რიცხვი")
 
-result = number * 2
+sum7 = number6 + number7
 
-print(type(result))
-
+print(sum7) 
+print(type(sum7))
